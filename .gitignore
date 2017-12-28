@@ -1,0 +1,11 @@
+
+.idea/*
+bin/
+conda-meta/
+include/
+lib/
+share/
+ssl/
+
+.idea/workspace.xml
+.idea/workspace.xml
