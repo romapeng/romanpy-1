@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/roman/Documents/romanpy
+exec_prefix=/Users/roman/Documents/romanpy
+libdir=/Users/roman/Documents/romanpy/lib
+includedir=/Users/roman/Documents/romanpy/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.2.3
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private:  
